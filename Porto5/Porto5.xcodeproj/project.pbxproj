@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD82DF192A0265BE0086712F /* Porto5App.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD82DF182A0265BE0086712F /* Porto5App.swift */; };
+		BD82DF1B2A0265BE0086712F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD82DF1A2A0265BE0086712F /* ContentView.swift */; };
+		BD82DF1D2A0265BF0086712F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD82DF1C2A0265BF0086712F /* Assets.xcassets */; };
+		BD82DF202A0265BF0086712F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD82DF1F2A0265BF0086712F /* Preview Assets.xcassets */; };
+		BD82DF2A2A0265BF0086712F /* Porto5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD82DF292A0265BF0086712F /* Porto5Tests.swift */; };
+		BD82DF342A0265BF0086712F /* Porto5UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD82DF332A0265BF0086712F /* Porto5UITests.swift */; };
+		BD82DF362A0265BF0086712F /* Porto5UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD82DF352A0265BF0086712F /* Porto5UITestsLaunchTests.swift */; };
+		BD82DF442A0266370086712F /* TabViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD82DF432A0266370086712F /* TabViewModel.swift */; };
+		BD82DF472A0266640086712F /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD82DF462A0266640086712F /* Item.swift */; };
+		BD82DF4A2A0266810086712F /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD82DF492A0266810086712F /* TabBarView.swift */; };
+		BD82DF4C2A0266960086712F /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD82DF4B2A0266960086712F /* Home.swift */; };
+		BD82DF4E2A0266B00086712F /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD82DF4D2A0266B00086712F /* CardView.swift */; };
+		BD82DF502A0266C50086712F /* Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD82DF4F2A0266C50086712F /* Detail.swift */; };
+		BD82DF522A0266DF0086712F /* CustomCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD82DF512A0266DF0086712F /* CustomCorner.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD82DF262A0265BF0086712F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD82DF0D2A0265BE0086712F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD82DF142A0265BE0086712F;
+			remoteInfo = Porto5;
+		};
+		BD82DF302A0265BF0086712F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD82DF0D2A0265BE0086712F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD82DF142A0265BE0086712F;
+			remoteInfo = Porto5;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD82DF152A0265BE0086712F /* Porto5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Porto5.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD82DF182A0265BE0086712F /* Porto5App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Porto5App.swift; sourceTree = "<group>"; };
+		BD82DF1A2A0265BE0086712F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BD82DF1C2A0265BF0086712F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD82DF1F2A0265BF0086712F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BD82DF252A0265BF0086712F /* Porto5Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Porto5Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD82DF292A0265BF0086712F /* Porto5Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Porto5Tests.swift; sourceTree = "<group>"; };
+		BD82DF2F2A0265BF0086712F /* Porto5UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Porto5UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD82DF332A0265BF0086712F /* Porto5UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Porto5UITests.swift; sourceTree = "<group>"; };
+		BD82DF352A0265BF0086712F /* Porto5UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Porto5UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BD82DF432A0266370086712F /* TabViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewModel.swift; sourceTree = "<group>"; };
+		BD82DF462A0266640086712F /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		BD82DF492A0266810086712F /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		BD82DF4B2A0266960086712F /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		BD82DF4D2A0266B00086712F /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		BD82DF4F2A0266C50086712F /* Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detail.swift; sourceTree = "<group>"; };
+		BD82DF512A0266DF0086712F /* CustomCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCorner.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD82DF122A0265BE0086712F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD82DF222A0265BF0086712F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD82DF2C2A0265BF0086712F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD82DF0C2A0265BE0086712F = {
+			isa = PBXGroup;
+			children = (
+				BD82DF172A0265BE0086712F /* Porto5 */,
+				BD82DF282A0265BF0086712F /* Porto5Tests */,
+				BD82DF322A0265BF0086712F /* Porto5UITests */,
+				BD82DF162A0265BE0086712F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD82DF162A0265BE0086712F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD82DF152A0265BE0086712F /* Porto5.app */,
+				BD82DF252A0265BF0086712F /* Porto5Tests.xctest */,
+				BD82DF2F2A0265BF0086712F /* Porto5UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD82DF172A0265BE0086712F /* Porto5 */ = {
+			isa = PBXGroup;
+			children = (
+				BD82DF482A0266730086712F /* View */,
+				BD82DF452A02664D0086712F /* Model */,
+				BD82DF422A02661E0086712F /* ViewModel */,
+				BD82DF182A0265BE0086712F /* Porto5App.swift */,
+				BD82DF1A2A0265BE0086712F /* ContentView.swift */,
+				BD82DF1C2A0265BF0086712F /* Assets.xcassets */,
+				BD82DF1E2A0265BF0086712F /* Preview Content */,
+			);
+			path = Porto5;
+			sourceTree = "<group>";
+		};
+		BD82DF1E2A0265BF0086712F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BD82DF1F2A0265BF0086712F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BD82DF282A0265BF0086712F /* Porto5Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BD82DF292A0265BF0086712F /* Porto5Tests.swift */,
+			);
+			path = Porto5Tests;
+			sourceTree = "<group>";
+		};
+		BD82DF322A0265BF0086712F /* Porto5UITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD82DF332A0265BF0086712F /* Porto5UITests.swift */,
+				BD82DF352A0265BF0086712F /* Porto5UITestsLaunchTests.swift */,
+			);
+			path = Porto5UITests;
+			sourceTree = "<group>";
+		};
+		BD82DF422A02661E0086712F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BD82DF432A0266370086712F /* TabViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BD82DF452A02664D0086712F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BD82DF462A0266640086712F /* Item.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BD82DF482A0266730086712F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BD82DF492A0266810086712F /* TabBarView.swift */,
+				BD82DF4B2A0266960086712F /* Home.swift */,
+				BD82DF4D2A0266B00086712F /* CardView.swift */,
+				BD82DF4F2A0266C50086712F /* Detail.swift */,
+				BD82DF512A0266DF0086712F /* CustomCorner.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD82DF142A0265BE0086712F /* Porto5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD82DF392A0265BF0086712F /* Build configuration list for PBXNativeTarget "Porto5" */;
+			buildPhases = (
+				BD82DF112A0265BE0086712F /* Sources */,
+				BD82DF122A0265BE0086712F /* Frameworks */,
+				BD82DF132A0265BE0086712F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Porto5;
+			productName = Porto5;
+			productReference = BD82DF152A0265BE0086712F /* Porto5.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD82DF242A0265BF0086712F /* Porto5Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD82DF3C2A0265BF0086712F /* Build configuration list for PBXNativeTarget "Porto5Tests" */;
+			buildPhases = (
+				BD82DF212A0265BF0086712F /* Sources */,
+				BD82DF222A0265BF0086712F /* Frameworks */,
+				BD82DF232A0265BF0086712F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD82DF272A0265BF0086712F /* PBXTargetDependency */,
+			);
+			name = Porto5Tests;
+			productName = Porto5Tests;
+			productReference = BD82DF252A0265BF0086712F /* Porto5Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD82DF2E2A0265BF0086712F /* Porto5UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD82DF3F2A0265BF0086712F /* Build configuration list for PBXNativeTarget "Porto5UITests" */;
+			buildPhases = (
+				BD82DF2B2A0265BF0086712F /* Sources */,
+				BD82DF2C2A0265BF0086712F /* Frameworks */,
+				BD82DF2D2A0265BF0086712F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD82DF312A0265BF0086712F /* PBXTargetDependency */,
+			);
+			name = Porto5UITests;
+			productName = Porto5UITests;
+			productReference = BD82DF2F2A0265BF0086712F /* Porto5UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD82DF0D2A0265BE0086712F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					BD82DF142A0265BE0086712F = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					BD82DF242A0265BF0086712F = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = BD82DF142A0265BE0086712F;
+					};
+					BD82DF2E2A0265BF0086712F = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = BD82DF142A0265BE0086712F;
+					};
+				};
+			};
+			buildConfigurationList = BD82DF102A0265BE0086712F /* Build configuration list for PBXProject "Porto5" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD82DF0C2A0265BE0086712F;
+			productRefGroup = BD82DF162A0265BE0086712F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD82DF142A0265BE0086712F /* Porto5 */,
+				BD82DF242A0265BF0086712F /* Porto5Tests */,
+				BD82DF2E2A0265BF0086712F /* Porto5UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD82DF132A0265BE0086712F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD82DF202A0265BF0086712F /* Preview Assets.xcassets in Resources */,
+				BD82DF1D2A0265BF0086712F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD82DF232A0265BF0086712F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD82DF2D2A0265BF0086712F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD82DF112A0265BE0086712F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD82DF4E2A0266B00086712F /* CardView.swift in Sources */,
+				BD82DF472A0266640086712F /* Item.swift in Sources */,
+				BD82DF502A0266C50086712F /* Detail.swift in Sources */,
+				BD82DF522A0266DF0086712F /* CustomCorner.swift in Sources */,
+				BD82DF1B2A0265BE0086712F /* ContentView.swift in Sources */,
+				BD82DF442A0266370086712F /* TabViewModel.swift in Sources */,
+				BD82DF4A2A0266810086712F /* TabBarView.swift in Sources */,
+				BD82DF4C2A0266960086712F /* Home.swift in Sources */,
+				BD82DF192A0265BE0086712F /* Porto5App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD82DF212A0265BF0086712F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD82DF2A2A0265BF0086712F /* Porto5Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD82DF2B2A0265BF0086712F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD82DF342A0265BF0086712F /* Porto5UITests.swift in Sources */,
+				BD82DF362A0265BF0086712F /* Porto5UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD82DF272A0265BF0086712F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD82DF142A0265BE0086712F /* Porto5 */;
+			targetProxy = BD82DF262A0265BF0086712F /* PBXContainerItemProxy */;
+		};
+		BD82DF312A0265BF0086712F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD82DF142A0265BE0086712F /* Porto5 */;
+			targetProxy = BD82DF302A0265BF0086712F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BD82DF372A0265BF0086712F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BD82DF382A0265BF0086712F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD82DF3A2A0265BF0086712F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Porto5/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Porto5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD82DF3B2A0265BF0086712F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Porto5/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Porto5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BD82DF3D2A0265BF0086712F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Porto5Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Porto5.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Porto5";
+			};
+			name = Debug;
+		};
+		BD82DF3E2A0265BF0086712F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Porto5Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Porto5.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Porto5";
+			};
+			name = Release;
+		};
+		BD82DF402A0265BF0086712F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Porto5UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Porto5;
+			};
+			name = Debug;
+		};
+		BD82DF412A0265BF0086712F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Porto5UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Porto5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD82DF102A0265BE0086712F /* Build configuration list for PBXProject "Porto5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD82DF372A0265BF0086712F /* Debug */,
+				BD82DF382A0265BF0086712F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD82DF392A0265BF0086712F /* Build configuration list for PBXNativeTarget "Porto5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD82DF3A2A0265BF0086712F /* Debug */,
+				BD82DF3B2A0265BF0086712F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD82DF3C2A0265BF0086712F /* Build configuration list for PBXNativeTarget "Porto5Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD82DF3D2A0265BF0086712F /* Debug */,
+				BD82DF3E2A0265BF0086712F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD82DF3F2A0265BF0086712F /* Build configuration list for PBXNativeTarget "Porto5UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD82DF402A0265BF0086712F /* Debug */,
+				BD82DF412A0265BF0086712F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD82DF0D2A0265BE0086712F /* Project object */;
+}
